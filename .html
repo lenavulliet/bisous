@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadeau - 10028383 Bisous</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #800020; /* Couleur bordeaux */
+            font-size: 48px;
+        }
+        p {
+            color: #800020; /* Couleur bordeaux */
+            font-size: 18px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #800020; /* Couleur bordeaux */
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #5a0015; /* Couleur bordeaux plus foncée */
+        }
+    </style>
+</head>
+<body>
+    <h1>10 028 383 bisous pour Kenzi </h1>
+
+    <p id="bisous-container"></p>
+
+    <script>
+        
+
+        // Générer le mot "bisous" 10 028 383 fois
+        let bisous = 'bisous ';
+        let repetition = 10028383;
+        let container = document.getElementById('bisous-container');
+
+        // Crée une grande chaîne avec "bisous" répété
+        let output = '';
+        for (let i = 0; i < repetition; i++) {
+            output += bisous;
+        }
+
+        // Insérer le texte dans l'élément HTML
+        container.textContent = output;
+    </script>
+</body>
+</html>
